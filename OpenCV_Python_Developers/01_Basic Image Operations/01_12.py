@@ -35,6 +35,21 @@ while True:
 		color = (255,0,0)
 	elif ch & 0xFF == ord('g'):
 		color = (0,255,0)
-	
+	elif ch & 0xFF == ord('r'):
+		color = (0,0,255)
+	elif ch & 0xFF == ord('c'):
+		color = (0,255,255)
+	elif ch & 0xFF == ord('y'):
+		color = (0,255,255)
+	elif ch & 0xFF == ord('m'):
+		color = (255,0,255)
+	elif ch & 0xFF == ord('k'):
+		color = (0,0,0)
+	elif ch & 0xFF == ord('w'):
+		color = (255,255,255)
+	elif ch & 0xFF == ord('z'):
+		radius += 1
+	elif ch & 0xFF == ord('x'):
+		radius -= 1
 
 cv2.destroyAllWindows()
